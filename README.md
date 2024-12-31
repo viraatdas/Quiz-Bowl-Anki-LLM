@@ -1,4 +1,4 @@
-# Quiz-Bowl-Anki-LLM
+# Quiz Bowl Anki LLM
 1. Go through Quiz bowl questions
 2. form high-level topics
 3. make flashcards with those questions
@@ -6,12 +6,20 @@
 5. win
 
 ## Usage 
-*tbd*
+1. Download Chromedriver: https://chromedriver.chromium.org/downloads
+2. 
+
 
 ## Low-level details
 
-
 1. Crawler
-   1. Convert files to something ingestible
+   1. Convert files to something easy to scan
 2. Generate topics (via Ollama)
-3. 
+
+
+## Format
+```
+"Front","Back","Category","Difficulty"
+"What is the capital of France?",("Paris","Geography"),"Easy"
+"Who wrote 'Macbeth'?",("William Shakespeare","Literature"),"Medium"
+```
